@@ -1,26 +1,26 @@
 # How to Create a React + Flask Project with Vite 
 
-***These setting are for Windows and VS Code and I suppose the React is already installed on your computer.***
-***It is not necessary to clone, just follow the instructions and on the end all will be set.***
+***These settings are for Windows and VS Code and I suppose React is already installed on your computer.***
+***It is unnecessary to clone, follow the instructions and all will be set on the end.***
 
-## 1. Create folder name "REACT_FLASK" and run following commnads:
+## 1. Create folder name "REACT_FLASK" and run the following commands:
 inside of this folder:
 
 - npx create-vite
-    - select name: client, select framwerok: React, select language: JavaScript
-    - above command will also create sub-folder "client"  
+    - select name: client, select framework: React, select language: JavaScript
+    - the above command will also create a sub-folder "client"  
 - cd client
 - npm install
 
 ## 2. Create sub-folder "server" (in REACT_FLASK folder)
 - cd server
-- create virtual envirmonemt and activate it:
+- create a virtual environment and activate it:
     - python -m venv venv
     - venv\Scripts\activate
 - pip install Flask
 - pip install Flask-CORS
   
-## 3. Create file "main.py" in server (Flask) folder:
+## 3. Create file "main.py" in the server (Flask) folder:
 ```
 from flask import Flask, jsonify
 from  flask_cors import CORS
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     - (Axio is to fetch API requests to our server)
 - npn run dev
   
-## 5. Start Python server: Run main.py directly in VS Code or command "python main.py" in first terminal (in server folder)
+## 5. Start Python server: Run main.py directly in VS Code or command "python main.py" in the first terminal (in the server folder)
 
 ## 6. Modify App.jsx (client/src/App.jsx):
 ```
@@ -105,7 +105,7 @@ function App() {
 export default App
 ```
 
-## Now everything is set and you can see the data from Flask on React page :) 
+## Now everything is set and you can see the data from Flask on the React page :) 
 
 ### Printscreen:
 ![image](https://github.com/user-attachments/assets/695ece42-858f-4bbf-8010-708ffc544b70)
