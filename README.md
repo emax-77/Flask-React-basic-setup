@@ -1,4 +1,4 @@
-# How to Create a React + Flask Project with Vite 
+# How to Create a basic React + Flask Project with Vite 
 
 ***These settings are for Windows and VS Code and I suppose React is already installed on your computer.***
 ***It is unnecessary to clone, follow the instructions and all will be set on the end.***
