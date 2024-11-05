@@ -1,6 +1,6 @@
 # How to Create a basic React + Flask Project with Vite 
 
-***These settings are for Windows and VS Code and I suppose React is already installed on your computer.***
+***I suppose both React and Python are already installed on your computer.***
 ***It is unnecessary to clone, follow the instructions and all will be set on the end.***
 
 ## 1. Create folder name "REACT_FLASK" and run the following commands:
@@ -15,10 +15,10 @@ inside of this folder:
 ## 2. Create sub-folder "server" (in REACT_FLASK folder)
 - cd server
 - create a virtual environment and activate it:
-    - python -m venv venv
-    - venv\Scripts\activate
-- pip install Flask
-- pip install Flask-CORS
+    - python -m venv venv (Win) / python3 -m venv myenv  (Mac)
+    - venv\Scripts\activate (Win) / source myenv/bin/activate (Mac)
+- pip install Flask (Win) / pip3 install Flask (Mac)
+- pip install Flask-CORS (Win) / pip3 install Flask (Mac)
   
 ## 3. Create file "main.py" in the server (Flask) folder:
 ```
