@@ -42,7 +42,7 @@ if __name__ == '__main__':
 - cd client
 - npm install axios
     - (Axio is to fetch API requests to our server)
-- npn run dev
+- npm run dev
   
 ## 5. Start Python server: Run main.py directly in VS Code or command "python main.py" in the first terminal - in the server (or server/venv) folder
 
