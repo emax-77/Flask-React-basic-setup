@@ -15,8 +15,8 @@ inside of this folder:
 ## 2. Create sub-folder "server" (in REACT_FLASK folder)
 - cd server
 - create a virtual environment and activate it:
-    - python -m venv venv (Win) / python3 -m venv myenv  (Mac)
-    - venv\Scripts\activate (Win) / source myenv/bin/activate (Mac)
+    - python -m venv venv (Win) / python3 -m venv venv  (Mac)
+    - venv\Scripts\activate (Win) / source venv/bin/activate (Mac)
 - pip install Flask (Win) / pip3 install Flask (Mac)
 - pip install Flask-CORS (Win) / pip3 install Flask-CORS (Mac)
   
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     - (Axio is to fetch API requests to our server)
 - npn run dev
   
-## 5. Start Python server: Run main.py directly in VS Code or command "python main.py" in the first terminal (in the server folder)
+## 5. Start Python server: Run main.py directly in VS Code or command "python main.py" in the first terminal - in the server (or server/venv) folder
 
 ## 6. Modify App.jsx (client/src/App.jsx):
 ```
