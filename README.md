@@ -18,7 +18,7 @@ inside of this folder:
     - python -m venv venv (Win) / python3 -m venv myenv  (Mac)
     - venv\Scripts\activate (Win) / source myenv/bin/activate (Mac)
 - pip install Flask (Win) / pip3 install Flask (Mac)
-- pip install Flask-CORS (Win) / pip3 install Flask (Mac)
+- pip install Flask-CORS (Win) / pip3 install Flask-CORS (Mac)
   
 ## 3. Create file "main.py" in the server (Flask) folder:
 ```
